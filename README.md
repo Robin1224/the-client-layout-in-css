@@ -1,5 +1,14 @@
-# Index.html
-
-Index heeft een link naar de hoofdpagina voor deze opdracht.
+# Beschrijving
 
 Via de homepagina zijn alle layouts te bereiken, waarvan ik alle 9 basic layouts heb gemaakt, en 3 advanced layouts.
+
+# Kenmerken
+code: HTML en CSS
+
+Tools: Visual Studio code
+
+# Installatie & Gebruik
+N.V.T.
+
+# Licentie
+N.V.T
