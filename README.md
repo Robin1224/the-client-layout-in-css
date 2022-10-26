@@ -1,6 +1,6 @@
 # Beschrijving
 
-robin-layout.student.fdnd.nl
+http://robin-layout.student.fdnd.nl/
 
 Via de homepagina zijn alle layouts te bereiken, waarvan ik alle 9 basic layouts heb gemaakt, en 3 advanced layouts.
 
