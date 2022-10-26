@@ -1,6 +1,5 @@
-> _Fork_ deze deeltaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Index.html
 
-# Layout in CSS
+Index heeft een link naar de hoofdpagina voor deze opdracht.
 
-Een oefening in document layout met CSS.
+Via de homepagina zijn alle layouts te bereiken, waarvan ik alle 9 basic layouts heb gemaakt, en 3 advanced layouts.
