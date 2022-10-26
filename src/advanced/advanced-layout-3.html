@@ -6,13 +6,49 @@
     <title>Advanced Layout 3</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
-      /* Doe hier jouw ding! */
+      body{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+        padding: 1rem;
+      }
+
+      header {
+        height: 7rem;
+      }
+
+      main {
+        margin-left: -7rem;
+        z-index: 0;
+      }
+
+      nav {
+        height: 7rem;
+      }
+
+      footer {
+        height: 7rem;
+      }
+
+      #container {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        z-index: 1;
+      }
     </style>
   </head>
   <body id="advanced-layout-3">
-    <header><h1>Advanced Layout 3</h1></header>
-    <nav><a href="../index.html">Terug naar het overzicht</a></nav>
+    <div id="container">
+      <header><h1>Advanced Layout 2</h1></header>
+      <nav><a href="../index.html">Terug naar het overzicht</a></nav>
+      <footer></footer>
+    </div>
     <main></main>
-    <footer></footer>
+
   </body>
 </html>

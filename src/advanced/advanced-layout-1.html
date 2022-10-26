@@ -6,7 +6,34 @@
     <title>Advanced Layout 1</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
-      /* Doe hier jouw ding! */
+      body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 0rem;
+        row-gap: 1.5rem;
+        grid-template-areas: 
+          '. h h'
+          'n n .'
+          '. m m'
+          '. f f';
+      }
+
+      header {
+        grid-area: h;
+      }
+
+      main {
+        grid-area: m;
+      }
+
+      nav {
+        grid-area: n;
+      }
+
+      footer {
+        grid-area: f;
+      }
     </style>
   </head>
   <body id="advanced-layout-1">

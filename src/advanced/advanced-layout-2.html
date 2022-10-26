@@ -6,12 +6,50 @@
     <title>Advanced Layout 2</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
-      /* Doe hier jouw ding! */
+      body{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr 1fr 1fr;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
+        grid-template-areas: 
+          'c'
+          'm'
+          'f';
+      }
+
+      header {
+        height: 7rem;
+        transform:  translateY(7rem) rotate(-30deg);
+      }
+
+      main {
+        grid-area: m;
+      }
+
+      nav {
+        height: 7rem;
+        transform:  translateY(-7rem) rotate(30deg);
+      }
+
+      footer {
+        grid-area: f;
+      }
+
+      #container {
+        grid-area: c;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
     </style>
   </head>
   <body id="advanced-layout-2">
-    <header><h1>Advanced Layout 2</h1></header>
-    <nav><a href="../index.html">Terug naar het overzicht</a></nav>
+    <div id="container">
+      <header><h1>Advanced Layout 2</h1></header>
+      <nav><a href="../index.html">Terug naar het overzicht</a></nav>
+    </div>
     <main></main>
     <footer></footer>
   </body>
