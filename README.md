@@ -1,6 +1,6 @@
 # Beschrijving
 
-http://robin-layout.student.fdnd.nl/src
+https://robin1224.github.io/the-client-layout-in-css/src
 
 Via de homepagina zijn alle layouts te bereiken, waarvan ik alle 9 basic layouts heb gemaakt, en 3 advanced layouts.
 
